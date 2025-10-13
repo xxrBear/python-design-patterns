@@ -6,7 +6,7 @@
 
 ## 实战场景
 
-在著名的python开源项目 sqlalchemy 中，使用了建造者模式去构建Query查询对象，用来动态拼接 SQL 查询，比如 SELECT ... WHERE ... ORDER BY ... LIMIT ...
+在著名的python开源项目 sqlalchemy 中，使用了建造者模式去构建 Query 查询对象
 
 例如：
 
@@ -61,6 +61,7 @@ sql = (
     .build()
 )
 print(sql)
+
 # 输出：
 # SELECT id, name FROM users WHERE age > 18 AND status = 'active' ORDER BY created_at LIMIT 10;
 ```
