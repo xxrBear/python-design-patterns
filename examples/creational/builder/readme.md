@@ -6,7 +6,7 @@
 
 ## 实战场景
 
-在著名的python开源项目 sqlalchemy 中，使用了建造者模式去构建 Query 查询对象
+在 sqlalchemy 中，使用了建造者模式去构建 Query 查询对象
 
 例如：
 
